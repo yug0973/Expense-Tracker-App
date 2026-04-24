@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Monthly Expenses Trackizer App UI UX Design Convent Into Flutter Code
 
 # codeforany @codeforany
@@ -31,3 +32,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Expense-Tracker-App
+Expense Tracker is a Flutter-based personal finance app that helps users track expenses, manage savings, and calculate real spendable money using a smart money flow system.
+>>>>>>> cf2f7a4aa8bdc934d5b04cbc31d8d139f51b65ac
