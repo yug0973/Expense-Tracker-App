@@ -1,0 +1,54 @@
+name: trackizer
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.5+1
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+3
+  intl: ^0.18.0
+  calendar_agenda:
+    path: dev_lib/calendar_agenda
+  carousel_slider: ^5.0.0
+  card_swiper:
+    path: dev_lib/card_swiper
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  shared_preferences: ^2.3.2
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/icon/app_icon.png
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/font/Inter-Regular.ttf
+        - asset: assets/font/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/font/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Inter-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
