@@ -1,38 +1,107 @@
-<<<<<<< HEAD
-# Monthly Expenses Trackizer App UI UX Design Convent Into Flutter Code
+📘Expense Tracker – Smart Expense & Financial Flow Management App
+📱 Overview
 
-# codeforany @codeforany
+Expense Tracker is a modern Flutter-based personal finance application designed to help users manage their money efficiently.
+Unlike traditional expense trackers, Trackizer focuses on financial planning by calculating how much users can safely spend after deductions and savings.
 
-- [Youtube Full Playlist: Monthly Expenses  App UI UX Design Convent Into Flutter Code](https://www.youtube.com/playlist?list=PLzcRC7PA0xWQRSF-Crjk6q3AQArDgCxak)
-- [Youtube Channel: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg)
-- [Youtube Channel Subscribe: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg?sub_confirmation=1)
+🚀 Features
+💰 Money Flow System (Core)
+Input monthly income
+Automatic deduction of:
+taxes
+subscriptions
+bills / rent
+Savings goal deduction
+Shows:
+Final spendable amount
+Daily safe spending
+📊 Expense Tracking
+Add and manage expenses
+Category-based tracking
+Stores notes, date, and amount
+🎯 Savings Goals
+Create multiple savings goals
+Track progress (saved vs target)
+Visual completion tracking
+🔄 Fixed Expenses & Subscriptions
+Manage recurring expenses
+Types:
+Bills
+Subscriptions
+Rent
+🧮 Tax Calculation
+Implements simplified Indian tax slab logic
+Automatically deducted from income
+📆 Daily Safe Spending
+Calculates:
+Remaining Money / Remaining Days
+Helps prevent overspending
+🎨 Custom UI & Theme
+Dark / Light mode support
+Clean, modern UI
+Based on Figma design
+🧠 Core Concept
+Income
+→ Tax
+→ Fixed Expenses
+→ Savings Goal
+→ Final Spendable Money
+→ Daily Safe Spending
 
-- [Youtube Video Part-1: App Induction, Sign Up Flow UI](https://youtu.be/A8Ou5iHU5lI)
-- [Youtube Video Part-2: Bottom TabView UI, Home Tab UI](https://youtu.be/LwW4Z35n-wM)
-- [Youtube Video Part-3: Spending Budgets Tab UI](https://youtu.be/LHkkCG8W5YI)
-- [Youtube Video Part-4: Subscription Schedule Calendar Tab UI](https://youtu.be/aViCUzVWo7o)
-- [Youtube Video Part-5: Add New Subscription UI](https://youtu.be/zNd3YDQu3sw)
-- [Youtube Video Part-6: Subscription Info Details Screen UI](https://youtu.be/5-sb4jXf3bc)
-- [Youtube Video Part-7: App Settings Screen UI](https://youtu.be/l9dM3X0Up0A)
-- [Youtube Video Part-8: Add Credit Cards Tab UI](https://youtu.be/zlLowXpiAZw)
+“Trackizer doesn’t just track expenses — it helps you make smarter financial decisions.”
 
-UI UX App Design by: [symu.co](https://symu.co/)
+⚙️ Tech Stack
+Flutter (Dart) – UI Development
+Provider – State Management
+SQLite (sqflite) – Local Database
+SharedPreferences – Local Storage
+Figma – UI Design Reference
+🗄️ Database Tables
+budgets – Category budgets
+expenses – Expense records
+savings_goals – Savings tracking
+income – Monthly income
+fixed_expenses – Recurring expenses
+settings – App preferences
+🧩 Architecture
+UI (Views & Widgets)
+        ↓
+Provider (Business Logic)
+        ↓
+DatabaseHelper (SQLite)
 
-A new Flutter project.
+👤 Yug Brahmbhatt
+Business logic implementation
+Provider state management
+Database integration (SQLite)
+Financial calculations
+App flow & integration
+UI implementation (Figma-based)
+Reusable widgets
+Design consistency
+UI integration & testing
+🤝 Collaboration
 
-## Getting Started
+Both contributors worked together on:
 
-This project is a starting point for a Flutter application.
+Integration
+Debugging
+Feature development
+📦 Installation
+git clone https://github.com/your-username/trackizer.git
+cd trackizer
+flutter pub get
+flutter run
+🔥 Unique Value
 
-A few resources to get you started if this is your first Flutter project:
+“Other apps tell you what you spent.
+Trackizer tells you what you can safely spend.”
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📌 Future Scope
+Cloud sync (Firebase)
+AI-based spending prediction
+Notifications & alerts
+Multi-device support
+📄 License
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Expense-Tracker-App
-Expense Tracker is a Flutter-based personal finance app that helps users track expenses, manage savings, and calculate real spendable money using a smart money flow system.
->>>>>>> cf2f7a4aa8bdc934d5b04cbc31d8d139f51b65ac
+This project is for academic and learning purposes.
