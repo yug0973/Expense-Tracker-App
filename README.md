@@ -70,7 +70,7 @@ Provider (Business Logic)
         ↓
 DatabaseHelper (SQLite)
 
-👤 Yug Brahmbhatt
+👤 Yug Brahmbhatt :-
 Business logic implementation
 Provider state management
 Database integration (SQLite)
@@ -88,7 +88,8 @@ Integration
 Debugging
 Feature development
 📦 Installation
-git clone https://github.com/your-username/trackizer.git
+git clone https://github.com/your-username/Expense-Tracker-App
+
 cd trackizer
 flutter pub get
 flutter run
